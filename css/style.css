@@ -102,6 +102,7 @@ textarea {
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-style: solid 1px black;
   
 }
 
