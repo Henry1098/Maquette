@@ -163,7 +163,7 @@ p
 .contactsection
 {
   color: white;
-}
+.}
 #footer
 {
   display: none;
@@ -181,5 +181,16 @@ p
 }
 div#carouselExampleIndicators {
   height: calc(100vh - 555px);
+}
+.pdf
+{
+  height: 800px;
+}
+.logos{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 }
