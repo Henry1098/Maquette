@@ -184,7 +184,7 @@ p
   background-image: url("../img/icons8-phone-481.png");
 }
 div#carouselExampleIndicators {
-  height: calc(100vh - 710px);
+  height: calc(100vh - 700px);
 }
 .pdf
 {
@@ -202,5 +202,12 @@ nav .navbar-nav li a{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;}
+  height: 100%;
+}
+nav .navbar-nav li a:hover{
+  animation: shakeX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
 }
