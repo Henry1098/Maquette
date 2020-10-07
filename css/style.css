@@ -1,11 +1,9 @@
-
-
 /* Section navbar*/
 
-.navbar a
-{
-  font-size: 1.5em!important;
+.navbar a {
+  font-size: 1.5em !important;
 }
+
 .navbar-light .navbar-toggler-icon {
   background-image: url("../img/burger.png");
 }
@@ -19,196 +17,201 @@ div#carouselExampleIndicators {
 /* Section Header*/
 
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    
-  }
-#burgersid
-{
-    background: black;
-    min-height:1650px;
-    color:white;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+
 }
-.hovercontent
-{
+
+#burgersid {
+  background: black;
+  min-height: 1650px;
+  color: white;
+}
+
+.hovercontent {
   display: none;
   position: absolute;
-  top:0;
-  left: 0;    
+  top: 0;
+  left: 0;
   background: rgb(0, 0, 0, 0.9);
   color: #fff;
 }
 
-.hoverimage:hover .hovercontent
-{
+.hoverimage:hover .hovercontent {
   display: flex;
   cursor: pointer;
 
 }
+
 .commander {
   background-color: red !important;
-  color:yellow!important;
-border-color:red!important;
+  color: yellow !important;
+  border-color: red !important;
 
 }
 
 
 /* Section bar (bar et petit déjeuner) */
 
-#barcontent
-{
-  background: linear-gradient(to right,#3A3535 50%,white 50%);
-  color:white;
+#barcontent {
+  background: linear-gradient(to right, #3A3535 50%, white 50%);
+  color: white;
 }
 
 /* Section contact*/
-.tel{
-  float: left;  
+.tel {
+  float: left;
   position: relative;
   left: 43%;
 }
 
-.map-responsive{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
-.map-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
-#contacthoraires
-{
-  background: linear-gradient(to right, white 50%,black 50%);
+
+#contacthoraires {
+  background: linear-gradient(to right, white 50%, black 50%);
 }
 
 textarea {
   resize: none;
 }
-.envoi
-{
-    text-align: center;
+
+.envoi {
+  text-align: center;
 }
+
 /* Section Footer */
 
 
 /* Footer Desktop*/
-#footer
-{
-  background: #2C2A2A ;
+#footer {
+  background: #2C2A2A;
 }
 
 /* Footer mobile*/
-#footer2
-{
+#footer2 {
   display: none;
-  background: white ;
+  background: white;
 }
+
 #footer2 {
 
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-style: solid 1px black;
-  
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-style: solid 1px black;
+
 }
 
-.map
-{
+.map {
   float: left;
 }
-.tel2
-{
+
+.tel2 {
   float: left;
   margin-right: 10px;
 }
 
 /* Autres*/
-.black
-{
-  color:black;
+.black {
+  color: black;
 }
-.white
-{
-  color:white;
+
+.white {
+  color: white;
 }
-.styleh1
-{
+
+.styleh1 {
   font-family: 'Bangers', cursive;
   text-decoration: underline;
 }
 
-p
-{
+p {
   font-family: 'Ubuntu', sans-serif;
 }
+
 /*Media queries */
 
-@media (max-width: 767.98px) { 
-  #barcontent
-{
-  background: black;
-  color:white;
-}
-#contacthoraires
-{
-  background: black;
-}
-.black
-{
-  color:white;
-}
-.contactsection
-{
-  color: white;
-.}
-#footer
-{
-  display: none;
-  background: #2C2A2A ;
-}
+@media (max-width: 767.98px) {
+  #barcontent {
+    background: black;
+    color: white;
+  }
 
-#footer2 
-{
-  display: block;
-  background: white ;
-}
-.tel
-{
-  background-image: url("../img/icons8-phone-481.png");
-}
-div#carouselExampleIndicators {
-  height: calc(100vh - 700px);
-}
-.pdf
-{
-  height: 800px;
-}
-.logos{
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-nav .navbar-nav li a{
+  #contacthoraires {
+    background: black;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-nav .navbar-nav li a:hover{
-  animation: shakeX; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-  background-color:red;
-}
+  .black {
+    color: white;
+  }
 
+  .contactsection {
+    color: white;
+  }
+
+  #footer {
+    display: none;
+    background: #2C2A2A;
+  }
+
+  #footer2 {
+    display: block;
+    background: white;
+  }
+
+  .tel {
+    background-image: url("../img/icons8-phone-481.png");
+  }
+
+  div#carouselExampleIndicators {
+    height: calc(100vh - 500px);
+  }
+
+  .pdf {
+    height: 800px;
+  }
+
+  .logos {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  nav .navbar-nav li a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  nav .navbar-nav li a:hover {
+    animation: shakeX;
+    animation-duration: 2s;
+    background-color: red;
+  }
+
+  .envoi {
+    background-color: red;
+    color: yellow;
+  }
 
 }
