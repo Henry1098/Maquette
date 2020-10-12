@@ -228,13 +228,6 @@ p {
     justify-content: center;
     height: 100%;
   }
-
-  nav .navbar-nav li a:hover {
-    animation: shakeX;
-    animation-duration: 2s;
-    background-color: red;
-  }
-
   .envoi {
     background-color: red;
     color: yellow;
